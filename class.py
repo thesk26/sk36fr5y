@@ -1004,12 +1004,11 @@ print(type(tup))
 tup =(2.9)
 print(tup)
 print(type(tup))
-
-<<<<<<< HEAD
+ 
 tup =("ashwini")
-=======
+ 
 tup =("ashwin " )
->>>>>>> afdcd654673f1fc02463fd337f663812e911f971
+  
 print(tup)
 print(type(tup))
 
@@ -1054,24 +1053,21 @@ tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
-<<<<<<< HEAD
-
+ 
 print(tuple3)
 
 print(type(tuple3 ,))
 
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
-
-=======
+ 
 print(tuple3)
 
 print(type(tuple3 ,))
 
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
-
->>>>>>> afdcd654673f1fc02463fd337f663812e911f971
+  
 print(mytuple)
 
 # methods in tuples 
@@ -1103,11 +1099,9 @@ print(tup.count(3))
 # class 14
 
 # QUESTION ANSWER ON tuple
-<<<<<<< HEAD
-=======
-
->>>>>>> afdcd654673f1fc02463fd337f663812e911f971
+    
 # 1 create a tuple 
+
 # Creating a tuple
 my_tuple = (10, 20, 30, 40)
 print("Tuple:", my_tuple)
@@ -1171,8 +1165,7 @@ print(item1)
 
 tuplex = "w", 3, "r", "s", "o", "u", "r", "c", "e"
 print(tuplex)
-<<<<<<< HEAD
-
+  
 listx = list(tuplex)
 
 listx.remove("c")
@@ -1190,19 +1183,15 @@ print(tuplex)
 # Dictionaries are used to store data values in key:value pairs.
 # A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 
-from typing import Dict
-=======
->>>>>>> afdcd654673f1fc02463fd337f663812e911f971
+# from typing import Dict
 
 listx = list(tuplex)
 
-<<<<<<< HEAD
-thisdict =	{
+thisdict ={
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964,
- 
-}
+ }
 print(thisdict)
 
 thisdict = {
@@ -1716,9 +1705,3 @@ unique = list(set(lst))
 print(unique)
 
 # End.
-=======
-listx.remove("c")
-tuplex = tuple(listx)
-
-print(tuplex)
->>>>>>> afdcd654673f1fc02463fd337f663812e911f971
