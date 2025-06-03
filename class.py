@@ -1368,3 +1368,96 @@ print (d1)
 print (d2)
 
 # this is the end.
+# questions on DICTIONARY
+#1 Write a Python program to add a key to a dictionary.
+
+d = {0: 10, 1: 20}
+print(d)
+d.update({2: 30})
+print(d) 
+
+# 2 Write a Python script to concatenate the following dictionaries to create a new one.
+
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+dic3 = {5: 50, 6: 60}
+
+# Create an empty dictionary 'dic4' that will store the combined key-value pairs from 'dic1', 'dic2', and 'dic3'.
+
+dic4 = {}
+for d in (dic1, dic2, dic3):
+    dic4.update(d)
+print(dic4) 
+
+# 3 Write a Python program to check whether a given key already exists in a dictionary.
+
+d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+def is_key_present(x):
+    if x in d:
+        print('Key is present in the dictionary')
+    else:
+        print('Key is not present in the dictionary')
+is_key_present(2)
+is_key_present(1) 
+
+# 4 Write a Python program to iterate over dictionaries using for loops.
+
+d = {'x': 10, 'y': 20, 'z': 30} 
+for dict_key, dict_value in d.items():
+# Print the key followed by '->' and the corresponding value.
+  print(dict_key, '->', dict_value)	
+
+# 5 Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+
+n = int(input("Input a number "))
+d = dict()
+for x in range(1, n + 1):
+    d[x] = x * x
+print(d) 
+
+# 6 Write a Python script to merge two Python dictionaries.
+
+d1 = {'a': 100, 'b': 200}
+d2 = {'x': 300, 'y': 200}
+d = d1.copy()
+d.update(d2)
+print(d) 
+
+# 7 Write a Python program to sum all the items in a dictionary.
+
+my_dict = {'data1': 100, 'data2': -54, 'data3': 247}
+result = sum(my_dict.values())
+print(result) 
+
+# 8 Write a Python program to multiply all the items in a dictionary.
+
+my_dict = {'data1': 100, 'data2': -54, 'data3': 247}
+result = 1
+for key in my_dict:
+    result = result * my_dict[key]
+print(result) 
+
+# 9 Write a Python program to remove a key from a dictionary.
+
+myDict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+print(myDict)
+if 'a' in myDict:
+    del myDict['a']
+print(myDict)
+
+# 10 Write a Python program to map two lists into a dictionary.
+
+keys = ['red', 'green', 'blue']
+values = ['#FF0000', '#008000', '#0000FF']
+color_dictionary = dict(zip(keys, values))
+print(color_dictionary)
+
+# 11 Write a Python program to get the maximum and minimum values of a dictionary.
+
+my_dict = {'x': 500, 'y': 5874, 'z': 560}
+key_max = max(my_dict.keys(), key=(lambda k: my_dict[k]))
+key_min = min(my_dict.keys(), key=(lambda l: my_dict[l]))
+print('Maximum Value: ', my_dict[key_max])
+print('Minimum Value: ', my_dict[key_min])
+
+# End 
