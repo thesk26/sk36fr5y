@@ -44,6 +44,9 @@ print (type(marks))
 print(marks[0])
 print(marks[1])
 print (len(marks))
+
+# printing this list
+
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)
 
@@ -81,7 +84,7 @@ print(thislist)
 
 # methods in list
 thislist = ["apple", "banana", "cherry"]
-thislist.append("orange")
+thislist.append("orange")    # append is method gives result at the last of list
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
@@ -89,16 +92,16 @@ thislist.insert(1, "orange")
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
-tropical = ["mango", "pineapple", "papaya"]
-thislist.extend(tropical)
+tropical = ["mango", "pineapple", "papaya"]  # types of 2nd list
+thislist.extend(tropical)    # extend is also method it combines lists 
 
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
-
-print(type(thislist) ) 
+thislist.extend(thistuple)    # add both list using extend 
+print(thislist)
+print(type(thislist)) 
 
 list = [2 ,1 ,3 ]
 list.append(4)
@@ -106,11 +109,11 @@ print(list)
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
-
+# give result in alphabetically order. 
 print(thislist)
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana",]
-thislist.sort(reverse = True)
+thislist.sort(reverse = True)   # give reult in descending order 
 print(thislist)
 
 thislist = [100, 50, 65, 82, 23]
@@ -134,7 +137,7 @@ thislist.pop(1)
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
-thislist.pop()
+thislist.pop() # when nothing given in () then pop will remove last one. 
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
@@ -151,3 +154,5 @@ print(list3)
 
 thislist = ["apple", "banana", "cherry"]
 for x1 in thislist: print(x1)
+
+# this is the end.
