@@ -109,7 +109,6 @@ print(tup.count(3))
 
 # QUESTION ANSWER ON tuple
 
-
 # 1 create a tuple 
 
 # Creating a tuple
