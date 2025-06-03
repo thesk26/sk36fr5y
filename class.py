@@ -1005,7 +1005,7 @@ tup =(2.9)
 print(tup)
 print(type(tup))
 
-tup =("ashwin " )
+tup =("ashwini")
 print(tup)
 print(type(tup))
 
@@ -1050,6 +1050,7 @@ tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
+
 print(tuple3)
 
 print(type(tuple3 ,))
