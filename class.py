@@ -1005,7 +1005,11 @@ tup =(2.9)
 print(tup)
 print(type(tup))
 
+<<<<<<< HEAD
 tup =("ashwini")
+=======
+tup =("ashwin " )
+>>>>>>> afdcd654673f1fc02463fd337f663812e911f971
 print(tup)
 print(type(tup))
 
@@ -1050,6 +1054,7 @@ tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
+<<<<<<< HEAD
 
 print(tuple3)
 
@@ -1058,6 +1063,15 @@ print(type(tuple3 ,))
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
 
+=======
+print(tuple3)
+
+print(type(tuple3 ,))
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+>>>>>>> afdcd654673f1fc02463fd337f663812e911f971
 print(mytuple)
 
 # methods in tuples 
@@ -1089,6 +1103,10 @@ print(tup.count(3))
 # class 14
 
 # QUESTION ANSWER ON tuple
+<<<<<<< HEAD
+=======
+
+>>>>>>> afdcd654673f1fc02463fd337f663812e911f971
 # 1 create a tuple 
 # Creating a tuple
 my_tuple = (10, 20, 30, 40)
@@ -1153,6 +1171,7 @@ print(item1)
 
 tuplex = "w", 3, "r", "s", "o", "u", "r", "c", "e"
 print(tuplex)
+<<<<<<< HEAD
 
 listx = list(tuplex)
 
@@ -1172,8 +1191,12 @@ print(tuplex)
 # A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 
 from typing import Dict
+=======
+>>>>>>> afdcd654673f1fc02463fd337f663812e911f971
 
+listx = list(tuplex)
 
+<<<<<<< HEAD
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -1693,3 +1716,9 @@ unique = list(set(lst))
 print(unique)
 
 # End.
+=======
+listx.remove("c")
+tuplex = tuple(listx)
+
+print(tuplex)
+>>>>>>> afdcd654673f1fc02463fd337f663812e911f971
