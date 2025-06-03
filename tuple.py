@@ -17,79 +17,79 @@
 # Tuples
 # A tuple is a collection which is ordered and unchangeable.
 
-# tup =()
-# print(tup)
-# print(type(tup))
+tup =()
+print(tup)
+print(type(tup))
 
-# tup =(2.9)
-# print(tup)
-# print(type(tup))
+tup =(2.9)
+print(tup)
+print(type(tup))
 
-# tup =("ashwin " )
-# print(tup)
-# print(type(tup))
+tup =("ashwin " )
+print(tup)
+print(type(tup))
 
 # if you want to create its type as a tuple then you have to add ,
 
-# tup =("ashwin" ,)
-# print(tup)
-# print(type(tup))
+tup =("ashwin" ,)
+print(tup)
+print(type(tup))
 
-# tup =( 1 , 2 , 3 , 4 ,5)
-# print(tup [1:3])
+tup =( 1 , 2 , 3 , 4 ,5)
+print(tup [1:3])
 
-# thistuple = ("apple", "banana", "cherry")
-# print(thistuple)
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
 
-# thistuple = tuple(("apple", "banana", "cherry"))
-# print(len(thistuple))
+thistuple = tuple(("apple", "banana", "cherry"))
+print(len(thistuple))
 
-# thistuple = ("apple", "banana", "cherry")
-# print(thistuple[1])
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
 
-# thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-# print(thistuple[-4:-1])
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
 
 # update  tuple 
 
-# x = ("apple", "banana", "cherry")
+x = ("apple", "banana", "cherry")
 
-# y = list(x)
+y = list(x)
 
-# y[1] = "kiwi"
-# x = tuple(y)
+y[1] = "kiwi"
+x = tuple(y)
 
-# print(x)
-# print(type(x ,))
+print(x)
+print(type(x ,))
 
-# thistuple = ("apple", "banana", "cherry")
-# for x in thistuple:
-#     print(x)
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+    print(x)
 
-# tuple1 = ("a", "b" , "c")
-# tuple2 = (1, 2, 3)
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
 
-# tuple3 = tuple1 + tuple2
-# print(tuple3)
+tuple3 = tuple1 + tuple2
+print(tuple3)
 
-# print(type(tuple3 ,))
+print(type(tuple3 ,))
 
-# fruits = ("apple", "banana", "cherry")
-# mytuple = fruits * 2
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
 
-# print(mytuple)
+print(mytuple)
 
 # methods in tuples 
 
 # index
 
-# tup = ( 1 ,2 ,3 , 4)
-# print(tup.index(4))
+tup = ( 1 ,2 ,3 , 4)
+print(tup.index(4))
 
 # ans is 1 because we call it index of value 2 in tuple
 
-# tup = ( 1 ,2 ,3 , 4 , 2 , 2)
-# print(tup.index(2))
+tup = ( 1 ,2 ,3 , 4 , 2 , 2)
+print(tup.index(2))
 
 # This method searches the tuple for the first occurrence of the value 2 and returns its index.
 
@@ -99,9 +99,10 @@
 
 # count
 
-# tup = ( 1 ,2 ,3 , 4 , 2 , 2 , 2 ,2)
-# print(tup.count(3))
+tup = ( 1 ,2 ,3 , 4 , 2 , 2 , 2 ,2)
+print(tup.count(3))
 
+################################################################################################################
 # Day 14 of learning python
 # 26/05/2025  
 # class 14
