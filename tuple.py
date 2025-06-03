@@ -112,111 +112,72 @@ print(tup.count(3))
 # 1 create a tuple 
 
 # Creating a tuple
-
-
-# my_tuple = (10, 20, 30, 40)
-
-# print("Tuple:", my_tuple)
-
-
-
-
-
+my_tuple = (10, 20, 30, 40)
+print("Tuple:", my_tuple)
 
 # 2.0 add the integer in tuple 
-
-# numbers = (34,54,67,21,78,97,45,44,80,19)
-# total = 0
-# for num in numbers:
-#    total += num
-# print("Total =", total)
-
+numbers = (34,54,67,21,78,97,45,44,80,19)
+total = 0
+for num in numbers:
+   total += num
+print("Total =", total)
 
 # 2 Write a Python program to create a tuple with different data types
-
-# tuplex = ("tuple", False, 3.2, 1)
-
-# print(tuplex)
-
-
+tuplex = ("tuple", False, 3.2, 1)
+print(tuplex)
 
 # 3 Write a Python program to create a tuple of numbers and print one item.
 
-# tuplex = 5, 10, 15, 20, 25
-
-# print(tuplex)
-
-# tuplex = 5,
-
-# print(tuplex)
-
-
+tuplex = 5, 10, 15, 20, 25
+print(tuplex)
+tuplex = 5,
+print(tuplex)
 
 # 4 Write a Python program to unpack a tuple into several variables.
 
-
-
-# tuplex = 4, 8, 3
-
-# print(tuplex)
-
-# n1, n2, n3 = tuplex
-
-# print(n1 + n2 + n3)
-
-
+tuplex = 4, 8, 3
+print(tuplex)
+n1, n2, n3 = tuplex
+print(n1 + n2 + n3)
 
 # 5 Write a Python program to add an item to a tuple
 
+tuplex = (4, 6, 2, 8, 3, 1)
+print(tuplex)
 
+tuplex = tuplex + (9,)
 
-# tuplex = (4, 6, 2, 8, 3, 1)
-# print(tuplex)
+print(tuplex)
 
-# tuplex = tuplex + (9,)
+listx = list(tuplex)
 
-# print(tuplex)
+listx.append(30)
 
+tuplex = tuple(listx)
 
-
-# listx = list(tuplex)
-
-# listx.append(30)
-
-# tuplex = tuple(listx)
-
-# print(tuplex) 
-
-
+print(tuplex) 
 
 # 6 Write a Python program to get the 4th element from the last element of a tuple.
 
+tuplex = ("w", 3, "r", "e", "s", "o", "u", "r", "c", "e")
+print(tuplex)
 
+# Get the 4th element of the tuple (index 3)
+item = tuplex[3]
+print(item)
 
-# tuplex = ("w", 3, "r", "e", "s", "o", "u", "r", "c", "e")
-
-# print(tuplex)
-
-# # Get the 4th element of the tuple (index 3)
-# item = tuplex[3]
-# print(item)
-
-# # Get the 4th element from the end of the tuple (index -4)
-# item1 = tuplex[-4]
-# print(item1) 
-
-
+# Get the 4th element from the end of the tuple (index -4)
+item1 = tuplex[-4]
+print(item1) 
 
 # 7Write a Python program to remove an item from a tuple.
 
+tuplex = "w", 3, "r", "s", "o", "u", "r", "c", "e"
+print(tuplex)
 
+listx = list(tuplex)
 
-# tuplex = "w", 3, "r", "s", "o", "u", "r", "c", "e"
-# print(tuplex)
+listx.remove("c")
+tuplex = tuple(listx)
 
-# listx = list(tuplex)
-
-# listx.remove("c")
-# tuplex = tuple(listx)
-
-# print(tuplex)
+print(tuplex)
