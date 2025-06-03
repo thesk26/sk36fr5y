@@ -17,21 +17,21 @@
 # Tuples
 # A tuple is a collection which is ordered and unchangeable.
 
-tup =()
+tup =()  # sign of tuple 
 print(tup)
 print(type(tup))
 
-tup =(2.9)
+tup =(2.9)   # tupe is float. not tuple 
 print(tup)
 print(type(tup))
 
-tup =("ashwin " )
+tup =("ashwini")
 print(tup)
 print(type(tup))
 
 # if you want to create its type as a tuple then you have to add ,
 
-tup =("ashwin" ,)
+tup =("ashwini",)
 print(tup)
 print(type(tup))
 
@@ -45,16 +45,16 @@ thistuple = tuple(("apple", "banana", "cherry"))
 print(len(thistuple))
 
 thistuple = ("apple", "banana", "cherry")
-print(thistuple[1])
+print(thistuple[1]) # indexing 
 
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print(thistuple[-4:-1])
+print(thistuple[-4:-1]) # negative slicing 
 
 # update  tuple 
 
 x = ("apple", "banana", "cherry")
 
-y = list(x)
+y = list(x) # list ko casting. kiya x se. 
 
 y[1] = "kiwi"
 x = tuple(y)
@@ -63,7 +63,7 @@ print(x)
 print(type(x ,))
 
 thistuple = ("apple", "banana", "cherry")
-for x in thistuple:
+for x in thistuple:  # loopin kiya or result me verically. 
     print(x)
 
 tuple1 = ("a", "b" , "c")
