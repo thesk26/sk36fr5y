@@ -1216,7 +1216,7 @@ thisdict = {
 print(thisdict)
 
 info = {
-"name" : "any",
+"name" : "Nothing",
 "subject" : ["python" , "mern " , "c" , "c++" ],
 "topics" : ( "dict ","tuple" , "list" ),
 "age" : 78 ,
@@ -1227,19 +1227,19 @@ print(info)
 # add dict
 
 info [ "name"]= "any23455"  # it will overwrite  name property
-info [ "age"] = 45
+info [ "age"] = 40
 print(info)
 
-marks = {"Savita":67, "any":88, "Laxman":91, "David":49}
+marks = {"Swarup":67, "Kartik":88, "Ram":91, "Aditya":49}
 print ("Initial dictionary: ", marks)
 
-marks['Kavya'] = 58
+marks['Yash'] = 58
 print ("Dictionary after new addition: ", marks)
 
-marks = {"Savita":67, "Imtiaz":88  }
+marks = {"Swarup":67, "Om":88  }
 print ("Initial dictionary: ", marks)
 
-marks.update({'Kavya': 58, 'Mohan': 98})
+marks.update({'Kavya': 58, 'Mohit': 98})
 print ("Dictionary after new addition: ", marks)
 
 thisdict = {
@@ -1324,11 +1324,11 @@ print(student ["name"] )
 # Dictionary methods
 
 student = {
-    "name": "ashwini hajre",
+    "name": "Swarup",
     "subject" :{
-        "python" : 45,
-        "mern" : 23 ,
-        "math" :22
+        "python" : 55,
+        "mern" : 53 ,
+        "math" : 25
     } 
 }
 print (student.keys())
@@ -1336,10 +1336,10 @@ print (student.keys())
 # casting in keys
 print(list(student.keys()))
 
-Dict.values()
+myDict.values()
 print(student.values())
 
-Dict.item()  # output  as a tuples 
+myDict.items()  # output  as a tuples 
 print(student.items())
 
 pairs = list(student.items())
@@ -1351,30 +1351,30 @@ print(student.get("name"))
 # update method
 
 student = {
-    "name": "ashwini hajre",
+    "name": "Swaarup",
     "subject" :{
-        "python" : 45,
-        "mern" : 23 ,
-        "math" :22
+        "python" : 405,
+        "mern" : 203 ,
+        "math" :220
     } 
 }
 student.update({"city" : "delhi"})
 print (student)
 
 student = {
-    "name": "ashwini hajre",
+    "name": "sdk",
     "subject" :{
-        "python" : 45,
-        "mern" : 23 ,
-        "math" :22
+        "python" : 400,
+        "mern" : 230 ,
+        "math" :220
     } 
 }
 
-new_dict = {"city" : "delhi" , "age" : "43"}
+new_dict = {"city" : "Nashik" , "age" : "18"}
 student.update(new_dict)
 print (student)
 
-d1 = {"Fruit":["Mango","Banana"], "Flower":["Rose", "Lotus"]}
+d1 = {"Fruit":["Watermelon","Banana"], "Flower":["LILI", "Lotus"]}
 d2 = {('India, USA'):'Countries', ('New Delhi', 'New York'):'Capitals'}
 print (d1)
 print (d2)
