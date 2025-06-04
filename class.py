@@ -1336,10 +1336,10 @@ print (student.keys())
 # casting in keys
 print(list(student.keys()))
 
-myDict.values()
+student.values()
 print(student.values())
 
-myDict.items()  # output  as a tuples 
+student.items()  # output  as a tuples 
 print(student.items())
 
 pairs = list(student.items())
