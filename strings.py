@@ -2,6 +2,7 @@
 # 6/05/2025
 # class 5
 
+# string is a data type and it is mutable. 
 str1 = 'The '
 str2 = "Vehicle"
 
