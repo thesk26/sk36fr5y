@@ -301,11 +301,11 @@ str1 = 'The '
 str2 = "Vehicle"
 
 str3 = '''Dr.'''
-
+# """ """ for. multiple line comment.
 str4 = """Dk"""
 
 print(str1)
-print (str2)
+print(str2)
 print(str3)
 print(str4)
 
