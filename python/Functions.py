@@ -5,7 +5,7 @@
 # function
 # to define a function def is used
 
-def function():
+def function():   # def stands for defination 
     print("I am learning python function ")
 
 function()
@@ -17,7 +17,7 @@ def my(fname):
 my("a")
 my("b")
 my("c")
-
+   
 def my_function(fname, lname):
     print(fname + " " + lname)
 my_function("Swarup","Kadam")
