@@ -6,7 +6,7 @@
 # to define a function def is used
 
 def function():
-    print("we are learning python function ")
+    print("I am learning python function ")
 
 function()
 
@@ -25,7 +25,7 @@ my_function("Swarup","Kadam")
 # *means we passed one arument
 def my_function(*name):
     print("my pet names are  " + name[0] +  " " + name[1])
-my_function("a", "b", "c")
+my_function("alpha", "beta", "xyz")
 
 # **means 2 argument we passed
 
@@ -33,7 +33,7 @@ def my_function(**name):
     print(" suname of the family is " + name["lname"])
     for k, val in name.items():
         print(k, val)
-my_function(fname = "aaa", lname = "bbb")
+my_function(fname = "Kartik", lname = "Gamne")
 
 # *args example
 
@@ -56,10 +56,10 @@ def my_function(state = "maharastra"):
 
     print("I am from " + state)
 
-my_function("himachal pradesh")
+my_function("arunachal pradesh")
 my_function(" punjab")
 my_function()
-my_function("jammu")
+my_function("jammu&kashmir")
 
 def sum(a,b):
 
