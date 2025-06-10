@@ -1725,7 +1725,7 @@ def my(fname):
 my("a")
 my("b")
 my("c")
-   
+  
 def my_function(fname, lname):
     print(fname + " " + lname)
 my_function("Swarup","Kadam")
